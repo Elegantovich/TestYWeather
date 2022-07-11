@@ -7,7 +7,7 @@ get data from yandex weather using selenium
 Скрипт для обработки данных с интерфейса сервиса "Яндекс Погода".
 
 ### Tech
-Python 3.10, Selenium 4.3, Pandas 1.4
+Python 3.10, Selenium 4.3, Pandas 1.3
 
 
 ### How to start a project:
