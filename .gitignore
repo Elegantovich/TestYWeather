@@ -132,4 +132,5 @@ dmypy.json
 chromedriver.exe
 .vscode
 test2.py
+report.db
 *.xlsx
