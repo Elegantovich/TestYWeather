@@ -8,7 +8,7 @@ flake8==4.0.1
 h11==0.13.0
 idna==3.3
 mccabe==0.6.1
-numpy==1.23.1
+numpy==1.21.6
 openpyxl==3.0.10
 outcome==1.2.0
 pandas==1.4.3
