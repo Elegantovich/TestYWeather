@@ -130,3 +130,6 @@ dmypy.json
 
 # My
 chromedriver.exe
+.vscode
+test2.py
+*.xlsx
