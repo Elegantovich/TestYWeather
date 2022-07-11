@@ -29,6 +29,7 @@ week, pressure_list, mid_val_list = [], [], []
 
 
 def to_excel(week):
+    """Send data to ecxel document."""
     data = []
     for item in week:
         data += item
@@ -40,6 +41,7 @@ def to_excel(week):
 
 
 def create_report(create_db, city, error_exist, insert_into):
+    """Work with DB."""
     conn = sqlite3.connect('report.db')
     cur = conn.cursor()
     cur.execute(create_db)
