@@ -77,8 +77,10 @@ if __name__ == "__main__":
                         if abs(morning_pressure - pressure) >= 5:
                             if pressure > morning_pressure:
                                 str_pressure = PRESSURE_UP
+                                break
                             else:
                                 str_pressure = PRESSURE_DOWN
+                                break
                         str_pressure = None
                     pressure_list = []
             count += 1
