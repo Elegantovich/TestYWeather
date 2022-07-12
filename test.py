@@ -58,7 +58,7 @@ if __name__ == "__main__":
         driver.get(f'https://yandex.ru/pogoda/{city}/details?via=ms#{day}')
         WebDriverWait(driver, 10)
         body = driver.find_elements(By.XPATH, "//*[@class='forecast-fields']")
-        mag_list = [' '.join(ii2.text.split()[3:]) for ii2 in body]
+        mag_list = [' '.join(i.text.split()[3:]) for i in body]
         if len(mag_list) == 0:
             raise Exception('Error, check the input data!')
         body = driver.find_elements(By.XPATH,
