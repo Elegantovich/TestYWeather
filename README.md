@@ -23,7 +23,7 @@ https://sites.google.com/chromium.org/driver/
 
 Clone and move to local repository:
 ```
-git clone https://github.com/Elegantovich/ShelfMatchApiTest/
+git clone https://github.com/Elegantovich/TestYWeather/
 ```
 Create a virtual environment (win):
 ```
